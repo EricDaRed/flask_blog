@@ -1,6 +1,8 @@
 {% extends "layout.html" %}
 
 {% block content %}
+<h2>Greetings!</h2>
+<p>Welcome to my site! If you're reading this, you probably didn't land here accidentally. I intend to update this site as I learn.</p>
 {% for post in posts.items %}
 <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}" alt="">

@@ -2,7 +2,9 @@
 
 {% block content %}
 <h2>Greetings!</h2>
-<p>Welcome to my site! If you're reading this, you probably didn't land here accidentally. I intend to update this site as I learn.</p>
+<p>Welcome to my site! If you're reading this, you probably didn't land here accidentally. So thanks for taking the time to visit!</p>
+<p>I'll readily state that this site is based on the Flask Blog tutorial by Corey Schafer, which I followed through to the end without changes in order to learn as much as possible. From here, I intend to update as I learn.</p>
+<h3>Posts</h3>
 {% for post in posts.items %}
 <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}" alt="">

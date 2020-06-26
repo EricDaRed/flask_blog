@@ -4,7 +4,7 @@ import json
 with open('/etc/flask_blog_config.json') as config_file:
 	config = json.load(config_file)
 
-
+# Will this comment be excluded?
 
 class Config:
     SECRET_KEY = config.get('SECRET_KEY')

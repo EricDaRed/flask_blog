@@ -1,5 +1,5 @@
 body {
-    background: #e3cd8a;
+    background: #9fc9c8;
     color: #333333;
     margin-top: 5rem;
   }
@@ -7,27 +7,37 @@ body {
   h1, h2, h3, h4, h5, h6 {
     color: #444444;
   }
-  
+
+
   .bg-steel {
-    background-color: #5f788a;
+    background-color: #3fe8e0;
   }
   
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #166360;
+    font-family: 'MuseoModerno', cursive;
   }
   
   .site-header .navbar-nav .nav-link:hover {
     color: #ffffff;
   }
+
+  .sitename {
+    color: #333333;
+  }
   
   .site-header .navbar-nav .nav-link.active {
     font-weight: 500;
   }
+
+  .navbar-brand {
+    color: #333333;
+  }
   
   .content-section {
-    background: #ffffff;
+    background: #3fe8e0;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #166360;
     border-radius: 3px;
     margin-bottom: 20px;
   }
@@ -77,4 +87,8 @@ body {
   
   .account-heading {
     font-size: 2.5rem;
+  }
+
+  .list-group-item {
+    background: #3fe8e0;
   }
